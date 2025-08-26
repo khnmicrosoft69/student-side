@@ -110,6 +110,18 @@
         color: #ccc;
         text-align: center;
       }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+        .row {
+          flex-direction: column; /* stack First Name + M.I. */
+        }
+        button {
+          width: 100%; /* full width on mobile */
+        }
+      }
     </style>
   </head>
   <body>
